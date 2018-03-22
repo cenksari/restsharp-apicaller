@@ -7,8 +7,7 @@
 
 	public class ApiCaller
 	{
-		string apiAddress;
-		string authentication;
+		string apiAddress, authentication;
 
 		public ApiCaller()
 		{

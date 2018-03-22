@@ -29,13 +29,9 @@
 			RestResponse response = await api.GetEndpoint(request);
 
 			if (response.Status)
-			{
 				TxtResults.Text = response.Response;
-			}
 			else
-			{
 				TxtResults.Text = $"{response.ErrorCode} - {response.Message}";
-			}
 		}
 	}
 }
